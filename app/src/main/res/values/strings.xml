@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ResCodyTask</string>
+    <string name="title_activity_main_screen">Map</string>
+    <string name="message">Messages</string>
+</resources>

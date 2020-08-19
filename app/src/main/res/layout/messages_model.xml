@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_show_card"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+      android:layout_margin="@dimen/_3sdp"
+        android:clickable="true"
+        android:elevation="@dimen/_100sdp"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/_6sdp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_10sdp">
+
+
+            <TextView
+                android:layout_above="@+id/sentiment"
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text=""
+                android:textSize="@dimen/_10sdp" />
+
+
+            <TextView
+                android:id="@+id/sentiment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="@dimen/_10sdp" />
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</layout>
+
+
